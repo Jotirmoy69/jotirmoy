@@ -66,7 +66,7 @@ import gsap from 'gsap'
     })
     gsap.to(".honey", {
       display: "none",
-      delay: 4.5,
+      delay: 4,
     })
     gsap.from(".h1 span",{
       opacity: 0,
