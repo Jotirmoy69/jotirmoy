@@ -23,12 +23,12 @@ const Page2Bottom = () => {
   return ( 
       <div className=" md:fixed absolute md:bottom-10 md:right-10   bottom-96  gap-3 flex flex-col z-99">
         <img id="img" 
-        src='./src/assets/branta2.png'
+        src='/branta2.png'
         className='rounded-full md:w-20 w-16'
           alt=""
         />
         <img id="img"
-        src='./src/assets/branta.png'
+        src='/branta.png'
         className='rounded-full md:w-20 w-16'
           alt=""
         />
