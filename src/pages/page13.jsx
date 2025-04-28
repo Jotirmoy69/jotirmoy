@@ -48,15 +48,15 @@ const page13 = () => {
   });
 
   return (
-    <div className="min-h-screen p-5 bg-white relative">
-      <div className='h-full shadow-lg shadow-black w-full rounded-2xl bg-cover md:pt-16 p-5  md:px-16 bg-[url("/bg-2.jpg")]'>
+    <div id="ending" className="min-h-scree p-5 bg-white relative">
+      <div className='ending shadow-lg shadow-black w-full rounded-2xl bg-cover md:pt-16 p-5  md:px-16 bg-[url("/bg-2.jpg")]'>
         <div className="h-[85%] flex   md:flex-row flex-col bg- -300 w-full">
           <div className="md:w-[40%] w-full  ">
             <div className="md:py-0 py-10">
               <h1 className="font-[anzo5] md:text-[15vw] text-[40vw] leading-[39vw] md:leading-[16vw] footer">
                 GOT <span className="text-gray-500 font-[anzo5]">AN</span>
               </h1>
-              <h1 className="font-[anzo5] md:text-[15vw] text-[40vw] leading-[39vw] md:leading-[16vw]  footer">IDEA</h1>
+              <h1 className="font-[anzo5] md:text-[15vw] text-[40vw] leading-[39vw] md:leading-[16vw]  footer">IDEA ?</h1>
             </div>
           </div>
           <div className="md:w-[60%] w-full flex md:flex-row flex-col items-center py-10 md:py-0">
@@ -78,7 +78,7 @@ const page13 = () => {
             </h1>
             <h1 className="font-[anzo3] footer">
               BUT{" "}
-              <span className="font-[anzo1]">OFFERING THE TRANSFORMATION!</span>
+              <span className="font-[anzo1] text-xs md:text-sm">OFFERING THE TRANSFORMATION!</span>
             </h1>
           </div>
           <h1 className="font-semibold footer">© 2024 Jotirmoy™</h1>
