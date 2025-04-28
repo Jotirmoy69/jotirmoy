@@ -23,11 +23,13 @@ const Page2Bottom = () => {
   return ( 
       <div className=" md:fixed absolute md:bottom-10 md:right-10   bottom-96  gap-3 flex flex-col z-99">
         <img id="img" 
-          src="https://static.wixstatic.com/media/f1c650_ed71078001ef401889b71537cca76dc4~mv2.png/v1/fill/w_72,h_72,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/cssda-wotd-white.png"
+        src='./src/assets/branta2.png'
+        className='rounded-full md:w-20 w-16'
           alt=""
         />
         <img id="img"
-          src="https://static.wixstatic.com/media/f1c650_64de2af00f41462e8aecc3d04537f9b4~mv2.png/v1/fill/w_72,h_72,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/EN_legend_large.png"
+        src='./src/assets/branta.png'
+        className='rounded-full md:w-20 w-16'
           alt=""
         />
       </div> 
