@@ -35,7 +35,7 @@ const Page4 = () => {
   });
   return (
     <div className="p-8 bg-white">
-      <div className='h-screen shadow-lg shadow-black w-full rounded-2xl bg-cover p-5 bg-[url("/bg-2.jpg")]'>
+      <div className='h-screen shadow-lg overflow-hidden shadow-black w-full rounded-2xl bg-cover p-5 bg-[url("/bg-2.jpg")]'>
         <div className="h-full relative ">
           <div className="h-[100%] p-5  flex flex-col md:flex-row  relative top-0">
             <div className="h-full  w-full md:w-1/2">

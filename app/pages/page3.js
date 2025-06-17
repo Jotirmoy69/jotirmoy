@@ -1,8 +1,8 @@
 import React from 'react'
 
-const page3 = () => {
+const Page3 = () => {
   return (
-    <div className='md:h-screen h-60 bg-white  overflow-x-hidden  flex justify-center items-center relative border-t-2 border-black'>
+    <div className='md:h-screen h-60 bg-white  overflow-hidden  flex justify-center items-center relative border-t-2 border-black'>
         <img className='absolute w-60 md:w-auto overflow-x-hidden' src="/try.png" alt="" />
        <video src="/file.mp4" className='object-cover w-32 md:w-auto overflow-x-hidden' muted autoPlay loop></video>
         <div className="md:block  hidden h-0.5 w-3/5 top-[14%] absolute z-[-10]  bg-gray-700"></div>       
@@ -12,4 +12,4 @@ const page3 = () => {
   )
 }
 
-export default page3
+export default Page3

@@ -31,7 +31,7 @@ const Page7 = () => {
         })
     })
   return (
-    <div className='md:h-[140vh] h-[210vh] bg-white p-5'>
+    <div className='md:h-[140vh] overflow-hidden h-[210vh] bg-white p-5'>
         <div  className='h-full shadow-lg shadow-black w-full rounded-2xl bg-cover p-5 bg-black flex flex-col md:flex-row'>
             <div className='h-full md:w-[40%] w-full  flex flex-col justify-between p-0 md:p-10'>
                 <div>

@@ -32,7 +32,7 @@ const Page = () => {
   }, [Xval, Yval]);
 
   return (
-    <div onMouseMove={mouseMoving} className="h-screen p-3  bg-white">
+    <div onMouseMove={mouseMoving} className="h-screen p-3  overflow-hidden bg-white">
       <div
         id="page-in"
         className='h-full shadow-lg shadow-black w-full rounded-2xl bg-cover p-5 bg-[url("/bg1.1.jpg")] sm:bg-[url("/bg.jpg")]'

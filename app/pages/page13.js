@@ -22,7 +22,7 @@ const Page13 = () => {
   });
 
   return (
-    <div id="ending" className="min-h-scree p-5 bg-white relative">
+    <div id="ending" className="min-h-screen overflow-hidden p-5 bg-white relative">
       <div className='ending shadow-lg shadow-black w-full rounded-2xl bg-cover md:pt-16 p-5  md:px-16 bg-[url("/bg-2.jpg")]'>
         <div className="h-[85%] flex   md:flex-row flex-col bg- -300 w-full">
           <div className="md:w-[40%] w-full  ">
@@ -45,7 +45,7 @@ const Page13 = () => {
             </div>
           </div>
         </div>
-        <div className=" py-5 h-[30%] md:h-[15%] w-full bg- -400 flex flex-col gap-10 md:flex-row  items-center justify-between">
+        <div className=" py-5 h-[30%] md:h-[0%] w-full bg- -400 flex flex-col gap-10 md:flex-row  items-center justify-between">
           <div>
             <h1 className="font-[anzo3] footer">
               IT IS NOT JUST ABOUT SOLVING THE PROBLEM

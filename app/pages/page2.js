@@ -82,7 +82,7 @@ const Page2 = () => {
   });
 
   return (
-    <div className="text-center bg-white py-20 mt-32 text-black h1-parent overflow-hidden">
+    <div className="text-center bg-white  py-20 mt-32 text-black h1-parent overflow-hidden">
       <div className="h1-perspective st1">
         <h1 className="md:text-[44vw] text-[40vw]  font-[anzo5] leading-[35vw]">IMPACTFUL</h1>
       </div>

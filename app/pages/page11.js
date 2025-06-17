@@ -68,7 +68,7 @@ const Page11 = () => {
     });
   });
   return (
-    <div className="  bg-white px-5 ">
+    <div className="  bg-white px-5 overflow-hidden">
       <div className='h-full shadow-lg  shadow-black w-full rounded-2xl bg-cover p-8 md:p-14 bg-black  bg-[url("/triangle.png")]'>
         <div className=" flex md:flex-row flex-col mb-20 h-[40%] md:h-[60%]">
           <div className="w-1/2 flex flex-row md:gap-0 gap-7 md:flex-col flex-start">

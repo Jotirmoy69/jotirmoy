@@ -19,7 +19,7 @@ const Page8 = () => {
     });
   });
   return (
-    <div className="h-[80vh] bg-white p-8 flex md:flex-row flex-col  text-black">
+    <div className="h-[80vh] overflow-hidden  bg-white p-8 flex md:flex-row flex-col  text-black">
       <div className="h-full md:w-[30%] flex  items-center justify-center">
         <h1 className="text-7xl font-[anzo4] soft">SOFT</h1>
       </div>

@@ -31,7 +31,7 @@ const Page9 = () => {
     });
   })
   return (
-    <div className='h-screen bg-white px-5'>
+    <div className='h-screen overflow-hidden bg-white px-5'>
       <div  className='h-full shadow-lg shadow-black w-full rounded-2xl bg-cover p-5 bg-black flex flex-col'>
         <div className="h-1/3   -500 flex flex-col ustify-center mt-5">
         <h1 className='text-center font-[anzo5] text-[27vw] md:text-[11vw] leading-[22vw] md:leading-[9vw] gsap9'>

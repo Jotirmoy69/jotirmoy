@@ -20,7 +20,7 @@ const Page6 = () => {
     })
   })
   return (
-    <div className='h-screen p-5 bg-white relative'>
+    <div className='h-screen p-5 overflow-hidden bg-white relative'>
       <div className='h-full shadow-lg shadow-black w-full rounded-2xl bg-cover relative '>
         <video src="/moon.mp4" autoPlay loop muted className='object-cover w-full rounded-2xl h-full'></video>
         <h1 className='text-[30vw] font-[anzo5] text-white absolute z-99 bottom-0 about ml-20'>ABOUT</h1>

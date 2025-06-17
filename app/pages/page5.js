@@ -85,7 +85,7 @@ const Page5 = () => {
     });
   });
   return (
-    <div className="text-center py-20 bg-white text-black h1-parent overflow-hidden">
+    <div className="text-center py-20   bg-white text-black h1-parent overflow-hidden">
       <div className="h1-perspective str1">
         <h1 className="md:text-[44vw] text-[40vw]  font-[anzo5] leading-[35vw]">HELPING</h1>
       </div>
