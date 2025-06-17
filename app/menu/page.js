@@ -4,7 +4,7 @@ import Header2 from '../component/Header2'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 
-const page = () => {
+const Page = () => {
   useGSAP(function(){
     gsap.from('.media', {
       duration: 1,
@@ -52,4 +52,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
