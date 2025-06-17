@@ -2,7 +2,7 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import React from "react";
 import { ScrollTrigger } from "gsap/all";
-const page9 = () => {
+const Page9 = () => {
   useGSAP(function () {
     gsap.registerPlugin(ScrollTrigger);
     gsap.from(".gsap9", {
@@ -56,4 +56,4 @@ const page9 = () => {
   )
 }
 
-export default page9
+export default Page9

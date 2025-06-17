@@ -4,7 +4,7 @@ import { ScrollTrigger } from "gsap/all";
 import React from "react";
 gsap.registerPlugin(ScrollTrigger);
 
-const page5 = () => {
+const Page5 = () => {
 
     
   useGSAP(() => {
@@ -108,4 +108,4 @@ const page5 = () => {
   )
 }
 
-export default page5
+export default Page5

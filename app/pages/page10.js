@@ -1,6 +1,6 @@
 import React from 'react'
 
-const page10 = () => {
+const Page10 = () => {
   return (
     <div className='flex justify-center bg-white'>
       <img src="/Astro.png" alt="" />
@@ -8,4 +8,4 @@ const page10 = () => {
   )
 }
 
-export default page10
+export default Page10
