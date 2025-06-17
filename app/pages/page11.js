@@ -107,7 +107,7 @@ const Page11 = () => {
                 <h2 className="text-xl font-[anzo2]">My mission is to drive exceptional growth for my clients by increasing their brand appearance,<span className="text-gray-400 font-[anzo2]"> defining their identity, and engaging customers through captivating black-and-white aesthetics with a modern, luxurious, and minimalistic touch. </span></h2> 
             </div>
             <div className="flex w-full    h-[30%] gap-7 card3">
-                <img className="h-16" src="https://static.wixstatic.com/media/f1c650_b0000fd9a706421aa0ea84da62ae3354~mv2.png/v1/fill/w_118,h_118,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/START%20UP.png" alt="" />
+                <img className="h-16" src="https://static.wixstatic.com/media/f1c650_b0000fd9a706421aa0ea84da62ae3354~mv2.png/v1/fill/w_118,h_118,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/START%20UP.png" alt=""/>
                 <h1 className="text-7xl font-[anzo5]">BRANDING</h1>
             </div>
           </div>
