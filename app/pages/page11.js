@@ -95,7 +95,7 @@ const Page11 = () => {
           </div>
           <div className="  h-full w-full md:mt-0 mt-40 md:w-1/3 card2">
             <div className="flex flex-col  w-full    h-[85%] gap-7 p-0 md:p-5">
-                <h2 className="text-xl font-[anzo2]"><span className="text-gray-400 font-[anzo2] ">With a background in strategic marketing and acknowledged expertise in web development,</span> I aim to minimize my client's resources spent on macro and micro-management, marketing research, and hiring a whole team of a larger agency. </h2> 
+                <h2 className="text-xl font-[anzo2]"><span className="text-gray-400 font-[anzo2] ">With a background in strategic marketing and acknowledged expertise in web development,</span> I aim to minimize my client&apos;s resources spent on macro and micro-management, marketing research, and hiring a whole team of a larger agency. </h2> 
             </div>
             <div className="flex w-full    h-[30%] gap-7 card2">
                 <img className="h-16" src="https://static.wixstatic.com/media/f1c650_027515148725478cbb3a91eca452cabf~mv2.png/v1/fill/w_118,h_118,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/EARTH.png" alt="" />
