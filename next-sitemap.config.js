@@ -1,14 +1,12 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'https://jotirmoy.vercel.app',  // ✅ your real deployed site
-  generateRobotsTxt: true,                 // generate robots.txt automatically
-  exclude: ['/server-sitemap.xml'],        // optional, exclude internal stuff
+  siteUrl: 'https://jotirmoy.vercel.app', // your real URL
+  generateRobotsTxt: true,                // automatically generate robots.txt
+  exclude: ['/api/*', '/_next/*'],       // exclude API routes and Next.js internals
+  sitemapSize: 5000,
   robotsTxtOptions: {
     policies: [
-      {
-        userAgent: '*',
-        allow: '/',
-      },
+      { userAgent: '*', allow: '/' },
     ],
   },
 };
