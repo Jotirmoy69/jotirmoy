@@ -1,5 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
-export default {
-  siteUrl: 'https://jotirmoy.vercel.app',
-  generateRobotsTxt: true,
+module.exports = {
+  siteUrl: 'https://yourdomain.com', // replace with your portfolio URL
+  generateRobotsTxt: true,           // generate robots.txt
+  sitemapSize: 7000,
 };
