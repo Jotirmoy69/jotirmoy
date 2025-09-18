@@ -37,7 +37,7 @@ const Header = () => {
           Projects
         </a> */}
 
-        <Link href="/menu">
+        <Link href="/Contact">
           <IoMenu className="md:text-5xl text-5xl bgk text-gray-300 header" />
         </Link>
       </div>
