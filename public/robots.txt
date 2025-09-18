@@ -1,6 +1,5 @@
 
 User-agent: *
-Allow: /
-
+Allow: / 
 # Sitemaps
 Sitemap: https://jotirmoy.vercel.app/sitemap.xml
